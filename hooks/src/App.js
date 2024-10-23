@@ -20,7 +20,7 @@ import Thought from "./effects/passing-thoughts/AddThoughtForm";
 
 function App() {
 
-  const hookName = 'state'; // 'effect'/ 'context'/ 'state'
+  const hookName = 'effect'; // 'effect'/ 'context'/ 'state'
 
   const [thoughts, setThoughts] = useState([
     {
